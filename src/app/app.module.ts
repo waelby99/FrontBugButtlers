@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OffreComponent } from './offre/offre.component';
@@ -12,6 +12,7 @@ import { OffreComponent } from './offre/offre.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],
